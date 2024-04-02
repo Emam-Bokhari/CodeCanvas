@@ -11,6 +11,13 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Tailwind css output -->
     <link rel="stylesheet" href="output.css">
+    <style>
+        @media (min-width: 1200px) {
+            .img {
+                height: calc(100vh - 90px)
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -85,9 +92,8 @@
                     <i class="fa-solid fa-arrow-right-long text-[12px] ml-2"></i></button>
             </div>
             <!-- Banner Image -->
-            <img class="w-full h-[500px] lg:h-[800px] object-cover" src="../assets/image/581.jpg" alt="">
+            <img class="w-full h-[500px]  object-cover object-center img" src="../assets/image/581.jpg" alt="">
         </div>
-
         <!-- End Banner -->
 
     </header>
