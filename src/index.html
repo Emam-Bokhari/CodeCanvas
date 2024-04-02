@@ -11,16 +11,9 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Tailwind css output -->
     <link rel="stylesheet" href="output.css">
-    <style>
-        @media (min-width: 1200px) {
-            .img {
-                height: calc(100vh - 90px)
-            }
-        }
-    </style>
 </head>
 
-<body>
+<body class="bg-[#f8f8f8]">
     <!-- ==========Start Header========== -->
     <header>
 
@@ -92,9 +85,23 @@
                     <i class="fa-solid fa-arrow-right-long text-[12px] ml-2"></i></button>
             </div>
             <!-- Banner Image -->
-            <img class="w-full h-[500px]  object-cover object-center img" src="../assets/image/581.jpg" alt="">
+            <img class="w-full h-[500px] lg:h-[800px]  object-cover object-center img" src="../assets/image/581.jpg"
+                alt="">
         </div>
         <!-- End Banner -->
+
+        <!-- Start Emergency Service -->
+        <div class="w-full h-[140px] lg:h-[200px] bg-white flex items-center justify-center gap-14">
+            <h2 class="text-2xl font-bold w-[350px] ">Need a doctor for checkup? Call for an <span
+                    class="text-[#0089fe]">emergency services</span></h2>
+
+            <div class="bg-[#0089fe] w-[245px] h-[65px] rounded-md py-2 px-3 relative">
+                <div class="w-[25px] h-[25px] rounded-full bg-[#fe8d00] absolute top-2 left-2"></div>
+                <h2 class="text-white text-center font-bold">Call Us: +00 568 468</h2>
+                <p class="text-white text-right font-light text-[12px]">For an appointment</p>
+            </div>
+        </div>
+        <!-- End Emergency Service -->
 
     </header>
     <!-- ==========End Header========== -->
